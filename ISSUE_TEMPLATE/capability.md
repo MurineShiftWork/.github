@@ -19,4 +19,6 @@ labels: enhancement
 
 - <!-- acceptance criterion -->
 
-<!-- Trailers, if any, one per line: Refs: #n | Datasheet: <title>, <public url> | Supersedes #n -->
+## References
+
+<!-- Only `Key: value` lines, e.g. Refs: #n | Datasheet: <title>, <public url> | Measured: <what, on what, conditions, method> | Supersedes: #n -->
