@@ -16,5 +16,7 @@ labels: bug
 - <!-- acceptance criterion -->
 - <!-- constraint or compatibility that must hold -->
 
-<!-- Trailers, if any, one per line: Refs: #n | Datasheet: <title>, <public url> | Measured: <what, on what, conditions, method> | Supersedes #n -->
+## References
+
+<!-- Only `Key: value` lines, e.g. Refs: #n | Datasheet: <title>, <public url> | Measured: <what, on what, conditions, method> | Supersedes: #n -->
 <!-- No hosts, paths, subject IDs or tokens. No tool or AI credit lines. -->

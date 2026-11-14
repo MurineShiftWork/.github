@@ -1,7 +1,7 @@
 <!--
 Title: <type>(<scope>)<!>: <summary>   (conventional commit; it becomes the commit on main)
 The title and this body are the squash commit: write for a reader who has only this repo.
-Leave out empty sections. Not content: test runs, CI status, review rounds, plans, hosts, paths,
+Leave out empty sections and delete these comments before merging. Not content: test runs, CI status, review rounds, plans, hosts, paths,
 subject IDs, tool or AI credit lines.
 -->
 
@@ -25,14 +25,18 @@ subject IDs, tool or AI credit lines.
 
 - <!-- behaviour or compatibility change; what still works unchanged -->
 
+## References
+
 <!--
-Trailers, one per line, in this order; keep only those that apply:
-BREAKING CHANGE: <what callers must change>
+Only reference lines, one per line, `Key: value`, in this order; keep the ones that apply:
+BREAKING-CHANGE: <what callers must change>
 Requires: <package>>=<version>
 Measured: <what, on what, conditions, method>
 Datasheet: <title>, <public url>
+See-also: <path in this repo>
 Refs: #n
-Supersedes #n
-Part of #n
+Supersedes: #n
+Part-of: #n
 -->
-Closes #
+
+Closes: #
